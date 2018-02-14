@@ -30,6 +30,8 @@ class ViewController: UIViewController {
             }
         } else{
             answerField.text = "Please enter your cat's actual age first"
+        
+        
         }
         
     }
