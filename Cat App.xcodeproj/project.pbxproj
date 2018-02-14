@@ -14,6 +14,7 @@
 		571AF1B12031F3CA00356635 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 571AF1AF2031F3CA00356635 /* LaunchScreen.storyboard */; };
 		571AF1BC2031F3CA00356635 /* Cat_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571AF1BB2031F3CA00356635 /* Cat_AppTests.swift */; };
 		571AF1C72031F3CA00356635 /* Cat_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571AF1C62031F3CA00356635 /* Cat_AppUITests.swift */; };
+		571AF1D520320AEA00356635 /* Cat_November_2010-1a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 571AF1D420320AEA00356635 /* Cat_November_2010-1a.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		571AF1C22031F3CA00356635 /* Cat AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cat AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		571AF1C62031F3CA00356635 /* Cat_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat_AppUITests.swift; sourceTree = "<group>"; };
 		571AF1C82031F3CA00356635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		571AF1D420320AEA00356635 /* Cat_November_2010-1a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Cat_November_2010-1a.jpg"; path = "../../../Cat_November_2010-1a.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				571AF1AD2031F3CA00356635 /* Assets.xcassets */,
 				571AF1AF2031F3CA00356635 /* LaunchScreen.storyboard */,
 				571AF1B22031F3CA00356635 /* Info.plist */,
+				571AF1D420320AEA00356635 /* Cat_November_2010-1a.jpg */,
 			);
 			path = "Cat App";
 			sourceTree = "<group>";
@@ -193,7 +196,7 @@
 				TargetAttributes = {
 					571AF1A22031F3CA00356635 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					571AF1B62031F3CA00356635 = {
 						CreatedOnToolsVersion = 9.2;
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				571AF1B12031F3CA00356635 /* LaunchScreen.storyboard in Resources */,
+				571AF1D520320AEA00356635 /* Cat_November_2010-1a.jpg in Resources */,
 				571AF1AE2031F3CA00356635 /* Assets.xcassets in Resources */,
 				571AF1AC2031F3CA00356635 /* Main.storyboard in Resources */,
 			);
@@ -426,11 +430,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Cat App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Cat.Cat-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -440,11 +446,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Cat App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Cat.Cat-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
